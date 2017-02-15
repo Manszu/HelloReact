@@ -1,20 +1,43 @@
 var Greeter = React.createClass({ /*component*/
-    getDefaultProps: function(){
+    getDefaultProps: function(){ /*method built in to react*/
         return{
             name: 'React',
             message: 'This is a default message!!'
         };
     },
+    getInitialState: function(){
+        return{
+            name: this.props.name /*name state that you can change by yourself*/
+
+        }
+    },
+    onButtonClick: function(e){
+      e.preventDefault(); /*prevent full browser reload*/
+
+      var nameRef= this.refs.name;
+
+      var name = nameRef.value;
+      nameRef.value=''; /*by adding a '' after = input string is every every time when the page is reloaded*/
+        if (typeof name === 'string' && name.length>0){
+            this.setState({
+                name: name
+            });
+        }
+     /*alert(name);*/
+
+    },
+
     render: function(){
-        var name = this.props.name;
+        var name = this.state.name;
         var message = this.props.message;
         return(
             <div>
                 <h1>Hello {name}!</h1>
                 <p>{message + '!!'}</p>
 
-                <form>
-                    <input/>
+                <form onSubmit={this.onButtonClick}>
+                    <input type="text" ref="name"/>
+                    <button> Set Name</button>
                 </form>
             </div>
         );
