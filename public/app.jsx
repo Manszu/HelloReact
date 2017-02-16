@@ -1,3 +1,7 @@
+var GreeterMessage = React.createClass(
+    {}
+)
+
 var Greeter = React.createClass({ /*component*/
     getDefaultProps: function(){ /*method built in to react*/
         return{
@@ -7,7 +11,7 @@ var Greeter = React.createClass({ /*component*/
     },
     getInitialState: function(){
         return{
-            name: this.props.name /*name state that you can change by yourself*/
+            name: this.props.name /*name stsdaate that you can change by yourself*/
 
         }
     },
