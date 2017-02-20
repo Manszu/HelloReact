@@ -326,7 +326,7 @@
       <workItem from="1487162903446" duration="16875000" />
       <workItem from="1487232068297" duration="11556000" />
       <workItem from="1487330507992" duration="12971000" />
-      <workItem from="1487578331887" duration="25104000" />
+      <workItem from="1487578331887" duration="25175000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1487166044386</created>
@@ -384,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487618454023</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="zmiana organizacji plikow przez webpacka">
+      <created>1487618487798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1487618487798</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67146000" />
+    <option name="totallyTimeSpent" value="67217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,9 +408,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1853" height="1078" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25179064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25179064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -450,7 +457,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="update dodanie arei tekstowej i obsluga zmiany wiadomosci przez stany" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dodanie arei tekstowej i obsluga zmiany wiadomosci przez stany" />
+    <MESSAGE value="zmiana organizacji plikow przez webpacka" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiana organizacji plikow przez webpacka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
