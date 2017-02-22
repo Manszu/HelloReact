@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75d74208-d454-420d-976b-284804d714cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -326,7 +325,7 @@
       <workItem from="1487232068297" duration="11556000" />
       <workItem from="1487330507992" duration="12971000" />
       <workItem from="1487578331887" duration="25784000" />
-      <workItem from="1487754538411" duration="35000" />
+      <workItem from="1487754538411" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1487166044386</created>
@@ -398,11 +397,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487618539447</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="usuniecie aliasu">
+      <created>1487754628723</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1487754628723</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67861000" />
+    <option name="totallyTimeSpent" value="67917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +471,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="update dodanie arei tekstowej i obsluga zmiany wiadomosci przez stany" />
     <MESSAGE value="zmiana organizacji plikow przez webpacka" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiana organizacji plikow przez webpacka" />
+    <MESSAGE value="usuniecie aliasu" />
+    <option name="LAST_COMMIT_MESSAGE" value="usuniecie aliasu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -728,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
