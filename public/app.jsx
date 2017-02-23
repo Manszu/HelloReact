@@ -4,7 +4,7 @@ var Greeter = require('Greeter');
 
 
 
-var firstName="Krzysiek";
+var firstName="Jen";
 //initialize code for our application
 ReactDOM.render(
     <Greeter name={firstName} />,

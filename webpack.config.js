@@ -5,8 +5,12 @@ module.exports= {
         filename: './public/bundle.js'
     },
     resolve:{
-        root : _dirname,  //dirname get you a file for whatever file that you are in, dirname leads to HelloReact folder
-
+        root : __dirname,  //dirname get you a file for whatever file that you are in, dirname leads to HelloReact folder
+        alias: {
+            Greeter: 'public/components/Greeter.jsx',
+            GreeterMessage: 'public/components/GreeterMessage.jsx',
+            GreeterForm: 'public/components/GreeterForm.jsx'
+        },
         extensions: ['','.js','.jsx']
     },
     module:{
